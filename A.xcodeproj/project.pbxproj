@@ -15,7 +15,6 @@
 		5D8A52EA1E1261B8005D1996 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52E91E1261B8005D1996 /* AUITests.m */; };
 		5D8A52FD1E126293005D1996 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52FC1E126293005D1996 /* AViewController.m */; };
 		5D8A534A1E13B821005D1996 /* Targets_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A53491E13B821005D1996 /* Targets_A.m */; };
-		5D8A534D1E13BCBF005D1996 /* justTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A534C1E13BCBF005D1996 /* justTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		5D8A52FC1E126293005D1996 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		5D8A53481E13B821005D1996 /* Targets_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Targets_A.h; sourceTree = "<group>"; };
 		5D8A53491E13B821005D1996 /* Targets_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Targets_A.m; sourceTree = "<group>"; };
-		5D8A534B1E13BCBF005D1996 /* justTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = justTest.h; sourceTree = "<group>"; };
-		5D8A534C1E13BCBF005D1996 /* justTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = justTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +146,6 @@
 			children = (
 				5D8A52FB1E126293005D1996 /* AViewController.h */,
 				5D8A52FC1E126293005D1996 /* AViewController.m */,
-				5D8A534B1E13BCBF005D1996 /* justTest.h */,
-				5D8A534C1E13BCBF005D1996 /* justTest.m */,
 				5D8A53481E13B821005D1996 /* Targets_A.h */,
 				5D8A53491E13B821005D1996 /* Targets_A.m */,
 			);
@@ -296,7 +291,6 @@
 				5D8A52C91E1261B8005D1996 /* AppDelegate.m in Sources */,
 				5D8A52C61E1261B8005D1996 /* main.m in Sources */,
 				5D8A534A1E13B821005D1996 /* Targets_A.m in Sources */,
-				5D8A534D1E13BCBF005D1996 /* justTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
