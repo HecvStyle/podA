@@ -144,20 +144,12 @@
 		5D8A52FA1E126293005D1996 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				5D8A53471E13B809005D1996 /* Targets */,
 				5D8A52FB1E126293005D1996 /* AViewController.h */,
 				5D8A52FC1E126293005D1996 /* AViewController.m */,
-			);
-			path = A;
-			sourceTree = "<group>";
-		};
-		5D8A53471E13B809005D1996 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
 				5D8A53481E13B821005D1996 /* Targets_A.h */,
 				5D8A53491E13B821005D1996 /* Targets_A.m */,
 			);
-			name = Targets;
+			path = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
