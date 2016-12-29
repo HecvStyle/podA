@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3581951E149BB100327170 /* Targets_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3581941E149BB100327170 /* Targets_A.m */; };
 		5D8A52C61E1261B8005D1996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52C51E1261B8005D1996 /* main.m */; };
 		5D8A52C91E1261B8005D1996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52C81E1261B8005D1996 /* AppDelegate.m */; };
 		5D8A52CC1E1261B8005D1996 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52CB1E1261B8005D1996 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		5D8A52DF1E1261B8005D1996 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52DE1E1261B8005D1996 /* ATests.m */; };
 		5D8A52EA1E1261B8005D1996 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52E91E1261B8005D1996 /* AUITests.m */; };
 		5D8A52FD1E126293005D1996 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A52FC1E126293005D1996 /* AViewController.m */; };
-		5D8A534A1E13B821005D1996 /* Targets_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A53491E13B821005D1996 /* Targets_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D3581931E149BB100327170 /* Targets_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Targets_A.h; sourceTree = "<group>"; };
+		5D3581941E149BB100327170 /* Targets_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Targets_A.m; sourceTree = "<group>"; };
 		5D8A52C11E1261B8005D1996 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8A52C51E1261B8005D1996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D8A52C71E1261B8005D1996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +53,6 @@
 		5D8A52EB1E1261B8005D1996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D8A52FB1E126293005D1996 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		5D8A52FC1E126293005D1996 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		5D8A53481E13B821005D1996 /* Targets_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Targets_A.h; sourceTree = "<group>"; };
-		5D8A53491E13B821005D1996 /* Targets_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Targets_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3581921E149BB100327170 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5D3581931E149BB100327170 /* Targets_A.h */,
+				5D3581941E149BB100327170 /* Targets_A.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		5D8A52B81E1261B8005D1996 = {
 			isa = PBXGroup;
 			children = (
@@ -144,10 +153,9 @@
 		5D8A52FA1E126293005D1996 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				5D3581921E149BB100327170 /* test */,
 				5D8A52FB1E126293005D1996 /* AViewController.h */,
 				5D8A52FC1E126293005D1996 /* AViewController.m */,
-				5D8A53481E13B821005D1996 /* Targets_A.h */,
-				5D8A53491E13B821005D1996 /* Targets_A.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -290,7 +298,7 @@
 				5D8A52CC1E1261B8005D1996 /* ViewController.m in Sources */,
 				5D8A52C91E1261B8005D1996 /* AppDelegate.m in Sources */,
 				5D8A52C61E1261B8005D1996 /* main.m in Sources */,
-				5D8A534A1E13B821005D1996 /* Targets_A.m in Sources */,
+				5D3581951E149BB100327170 /* Targets_A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
